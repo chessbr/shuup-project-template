@@ -12,6 +12,10 @@ A Shuup e-commerce platform template
 
 Profit!
 
+## Compatibility
+
+Compatible with Shuup 1.10
+
 # License
 
 MIT
