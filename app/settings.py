@@ -191,8 +191,7 @@ SHUUP_SETUP_WIZARD_PANE_SPEC = [
     "shuup.admin.modules.service_providers.views.PaymentWizardPane",
     "shuup.admin.modules.service_providers.views.CarrierWizardPane",
     "shuup.xtheme.admin_module.views.ThemeWizardPane",
-    "shuup.admin.modules.content.views.ContentWizardPane",
-    "shuup.admin.modules.sample_data.views.SampleObjectsWizardPane",
+    "shuup.testing.modules.sample_data.views.SampleObjectsWizardPane" if DEBUG else "",
     "shuup.admin.modules.system.views.TelemetryWizardPane"
 ]
 
